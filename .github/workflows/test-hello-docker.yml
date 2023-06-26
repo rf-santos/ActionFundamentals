@@ -19,4 +19,4 @@ jobs:
           who-to-greet: '@rf-santos'
         
       - name: Output time
-        run: echo "${{ steps.hello.outputs.time }}
+        run: echo "${{ steps.hello.outputs.time }}"
