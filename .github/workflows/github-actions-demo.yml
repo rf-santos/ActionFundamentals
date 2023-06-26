@@ -26,6 +26,6 @@ jobs:
 
       - name: ls
         run: |
-          echo ${{ github.repository }}"
+          echo "${{ github.repository }}"
           ls -lha
           
